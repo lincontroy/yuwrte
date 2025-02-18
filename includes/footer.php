@@ -13,7 +13,7 @@
               <strong>Email Us:</strong> support@at-homeworkplace.com<br>
             </p>
             <div class="social-links mt-3">
-              <a href="https://t.me/+HmRNHC0RMQwwYmJk" class="telegram"><i class="bi bi-telegram"></i></a>
+              <a href="https://t.me/+_CV9YwBPu7gxNjlk" class="telegram"><i class="bi bi-telegram"></i></a>
               <a href="https://api.whatsapp.com/send?phone=+254759501574"><i class="bi bi-whatsapp"></i></a>
             </div>
 

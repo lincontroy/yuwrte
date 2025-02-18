@@ -36,7 +36,7 @@ include_once "includes/sidebar.php";
    <section class="section">
       <div class="row">
         <div class="col-lg-6">
-              <a href="https://t.me/+ASEQ-UqiikdmMTZk"> <button type="button" class="btn btn-primary"> <i class="bx bx-bell"></i>  <strong>New Jobs & Upcoming Training Updates!</strong> </button></a>
+              <a href="https://t.me/+_CV9YwBPu7gxNjlk"> <button type="button" class="btn btn-primary"> <i class="bx bx-bell"></i>  <strong>New Jobs & Upcoming Training Updates!</strong> </button></a>
         </div>
       </div>
     </section>
@@ -309,7 +309,7 @@ echo "
               <h5 class="card-title" style="font-weight: bold;"><i class="bx bxs-phone"></i> Incase of any query, Contact Support.</h5>
               
                <div class="social-links mt-3">
-              <a href="https://t.me/YuwriteAfricaOffice" class="telegram"><i class="bi bi-telegram"></i></a> <strong>Send a DM</strong><br>
+              <a href="https://t.me/Athomeworkplace" class="telegram"><i class="bi bi-telegram"></i></a> <strong>Send a DM</strong><br>
               <a href="https://api.whatsapp.com/send?phone=+254759501574"><i class="bi bi-whatsapp"></i></a> <strong>Whatsapp</strong>
             </div>
                 </div>
