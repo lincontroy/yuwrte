@@ -10,7 +10,7 @@ Author URL: http://w3layouts.com
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="../assets/img/favicon.png" rel="icon">
-    <title>YUWRITE AFRICA</title>
+    <title> At-HomeworkPlace</title>
     <!-- google-fonts -->
     <link href="//fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
@@ -27,7 +27,7 @@ Author URL: http://w3layouts.com
             <nav class="navbar navbar-expand-lg stroke">
                 <h1 style="font-weight: bold;">
                     <a class="navbar-brand" href="index.php">
-                        <img class="img-fluid" src="assets/images/logo.png" alt=" "> YUWRITE-AFRICA
+                        <img class="img-fluid" src="assets/images/logo.png" alt=" ">  At-HomeworkPlace
                     </a>
                 </h1>
                 <!-- if logo is image enable this   
@@ -142,7 +142,7 @@ Author URL: http://w3layouts.com
                             <!-- <a href="#blog"><img src="assets/images/blog2.jpg" alt="" /></a> -->
                             <div class="blog-info">
                                 <h4 style="font-weight: bold;">HOW TO EARN</h4>
-                                <p style="color: #000000;">If you possess a strong drive to succeed, a creative spirit, an insatiable thirst for learning, and a hunger for personal development, then Yuwrite Africa may be the perfect fit for you. Our emphasis on work-from-home job opportunities is designed to facilitate your growth and development.</p>
+                                <p style="color: #000000;">If you possess a strong drive to succeed, a creative spirit, an insatiable thirst for learning, and a hunger for personal development, then  At-HomeworkPlace may be the perfect fit for you. Our emphasis on work-from-home job opportunities is designed to facilitate your growth and development.</p>
                             </div>
                         </div>
                     </div>
@@ -187,7 +187,7 @@ Author URL: http://w3layouts.com
                             <!-- <a href="#blog"><img src="assets/images/blog2.jpg" alt="" /></a> -->
                             <div class="blog-info">
                                 <h4 style="font-weight: bold;">SUBMIT WORK</h4>
-                                <p style="color: #000000;">At Yuwrite Africa, you have the flexibility to use various submission methods to upload your assignments, projects, tasks, and other work online. Depending on their preference, clients can specify the type of online submission they prefer. Additionally, you may have the opportunity to revise and resubmit your work if permitted by the clients.</p>
+                                <p style="color: #000000;">At  At-HomeworkPlace, you have the flexibility to use various submission methods to upload your assignments, projects, tasks, and other work online. Depending on their preference, clients can specify the type of online submission they prefer. Additionally, you may have the opportunity to revise and resubmit your work if permitted by the clients.</p>
                             </div>
                         </div>
                     </div>
@@ -258,7 +258,7 @@ Author URL: http://w3layouts.com
                     </div>
                     <div class="row sub-columns" >
                         <div class="col-lg-4 col-md-6 col-sm-8 sub-one-left">
-                            <p>If you are interested in getting started with Yuwrite Africa, contact us today to receive information. Our aim is to assist you in discovering a significant source of income that you can comfortably pursue.</p>
+                            <p>If you are interested in getting started with  At-HomeworkPlace, contact us today to receive information. Our aim is to assist you in discovering a significant source of income that you can comfortably pursue.</p>
                             <div class="columns-2">
                                 <ul class="social">
                                     <li><a href="https://t.me/+HmRNHC0RMQwwYmJk"><span class="fa fa-telegram" aria-hidden="true"></span></a>
@@ -272,7 +272,7 @@ Author URL: http://w3layouts.com
                         <div class="col-lg-3 col-sm-6 sub-one-left mt-lg-0 mt-sm-5 mt-4">
                             <div class="column2">
                                 <div class="href1"><span class="fa fa-envelope-o" aria-hidden="true"></span><a
-                                        href="#">support@yuwriteafrica.com</a>
+                                        href="#">support@at-HomeworkPlace.com</a>
                                 </div>
                             </div>
                         </div>
@@ -284,7 +284,7 @@ Author URL: http://w3layouts.com
         <div class="copyright-footer text-center">
             <div class="container">
                 <div class="columns">
-                    <p>@2023 YUWRITE AFRICA
+                    <p>@2025  At-HomeworkPlace
                     </p>
                 </div>
             </div>
