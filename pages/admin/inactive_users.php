@@ -97,7 +97,7 @@ else{
                                                 <td><?php echo $pendingUsersResultsss['id'] ?></td>
                                                 <td><?php echo $pendingUsersResultsss['username'] ?></td>
 												<td><?php echo $pendingUsersResultsss['phone'] ?></td>
-												   <td>KSH <?php echo number_format(!is_null($value) ? $value : 0); ?></td>
+												   <td>KSH <?php echo number_format(!is_null($pendingUsersResultsss['balance']) ? $pendingUsersResultsss['balance']  : 0); ?></td>
                                                   <td><span class="btn btn-rounded btn-danger" style="margin-top:-8px;"><?php echo ucfirst($pendingUsersResultsss['active']) ?></span></td>
                                                 <td>
 													<div class="d-flex">
