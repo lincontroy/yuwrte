@@ -1,5 +1,5 @@
 <?php
- if( $result['email'] != 'samt7141@gmail.com' AND $result['email'] != 'LINCOLNMUNENE37@GMAIL.COM'){  
+ if( $result['email'] != 'samt7141@gmail.com' || $result['email'] != 'LINCOLNMUNENE37@GMAIL.COM'){  
 header("Location: ../logout.php");
 }   
 ?>
