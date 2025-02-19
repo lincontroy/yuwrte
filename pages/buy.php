@@ -24,9 +24,9 @@ window.location.href='../pages'
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Rising Freelancer?</h5>
-              <p style="color: #000000">Have a 100% complete profile with signs of great experience prior to joining Yuwrite; Have positive performance on Yuwrite, including submitting high-quality work.</p>
-              <p style="color: #000000">To help you shine in the eyes of prospective clients, Yuwrite created Talent Badges for freelancers. We designed these badges to highlight your proven talent and expertise.</p>
-              <p style="color: #000000">When you are new to Yuwrite, the Rising Talent badge will let clients know you are among the best new freelancers in the Yuwrite marketplace</p>
+              <p style="color: #000000">Have a 100% complete profile with signs of great experience prior to joining At homeworkplace; Have positive performance on at homework place, including submitting high-quality work.</p>
+              <p style="color: #000000">To help you shine in the eyes of prospective clients, at homework place created Talent Badges for freelancers. We designed these badges to highlight your proven talent and expertise.</p>
+              <p style="color: #000000">When you are new to at homework place, the Rising Talent badge will let clients know you are among the best new freelancers in the at homework place marketplace</p>
               <p style="color: #000000">This badge is one of the ways that we help freelancers and agencies who are new to our platform establish themselves.</p>
 
             </div>
