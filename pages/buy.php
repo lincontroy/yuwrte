@@ -88,37 +88,46 @@ window.location.href='./'
 
 function lipaNaMpesaPassword()
 {
-//timestamp
-$timestamp = Carbon::rawParse('now')->format('YmdHms');
-//passkey
-$passKey ="304b1b43b751e40e03e11fe2c226369cf6fbfd2b9b0b81f7c30b10692d805dc1";
-$businessShortCOde = 4097815;
-//generate password
-$mpesaPassword = base64_encode($businessShortCOde.$passKey.$timestamp);
-return $mpesaPassword;
+    date_default_timezone_set('Africa/Nairobi'); // Ensure a valid timezone is set
+
+    try {
+        // Generate timestamp
+        $timestamp = date('YmdHis'); // Equivalent to Carbon::now()->format('YmdHis')
+
+        // Passkey
+        $passKey = "9dbda5730481165d0e2cf7413b885164209785178225507fd7779886025f6ce3";
+        $businessShortCode = 4089493;
+
+        // Generate password
+        $mpesaPassword = base64_encode($businessShortCode . $passKey . $timestamp);
+
+        return $mpesaPassword;
+    } catch (Exception $e) {
+        die("Carbon error: " . $e->getMessage()); // Debug error if any occurs
+    }
 }
 function getAccessToken(){
-$consumerKey = 'sTpYXNkZbjrxXAewpMfGjdQKLI2h3B9w';
-$consumerSecret = '9oNzvtWuGpBNZUGA';
-$url = 'https://api.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
-$curl = curl_init();
-$credentials = base64_encode($consumerKey.":".$consumerSecret);
-curl_setopt($curl, CURLOPT_URL, $url);
-curl_setopt($curl, CURLOPT_HTTPHEADER, array('Authorization: Basic '.$credentials));
-curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($curl, CURLOPT_HEADER,false);
-curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
-$response = curl_exec($curl);
-$accessToken = json_decode($response)->access_token;
-return $accessToken;
-}
+  $consumerKey = 'ULwAhYbzGJSEEA1i6PGdItq0FbluERCA';
+  $consumerSecret = 'sptMJoFfng8d5Nmv';
+  $url = 'https://api.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
+  $curl = curl_init();
+  $credentials = base64_encode($consumerKey.":".$consumerSecret);
+  curl_setopt($curl, CURLOPT_URL, $url);
+  curl_setopt($curl, CURLOPT_HTTPHEADER, array('Authorization: Basic '.$credentials));
+  curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+  curl_setopt($curl, CURLOPT_HEADER,false);
+  curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+  $response = curl_exec($curl);
+  $accessToken = json_decode($response)->access_token;
+  return $accessToken;
+  }
 
 // if training
 function stkPush1($userAmt,$phone)
 {
 $url = 'https://api.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
 $curl_post_data = [
-'BusinessShortCode' => 4097815,
+'BusinessShortCode' => 4089493,
 'Password' => lipaNaMpesaPassword(),
 'Timestamp' => Carbon::rawParse('now')->format('YmdHms'),
 'TransactionType' => 'CustomerPayBillOnline',
@@ -126,7 +135,7 @@ $curl_post_data = [
 'PartyA' => $phone,
 'PartyB' => 4097815,
 'PhoneNumber' => $phone,
-'CallBackURL' => 'https://yuwriteafrica.com/packageCallback?phone='.$phone.'&package=training',
+'CallBackURL' => 'https://at-homeworkplace.com/packageCallback?phone='.$phone.'&package=training',
 'AccountReference' => 'REGISTERTRAINING',
 'TransactionDesc' => "stk"
 ];
