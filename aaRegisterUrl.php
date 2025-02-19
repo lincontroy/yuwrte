@@ -1,7 +1,7 @@
  <?php
 // access token here
-$consumer_key='sTpYXNkZbjrxXAewpMfGjdQKLI2h3B9w';
-$consumer_secret='9oNzvtWuGpBNZUGA';
+$consumer_key='ULwAhYbzGJSEEA1i6PGdItq0FbluERCA';
+$consumer_secret='sptMJoFfng8d5Nmv';
 
 $headers=['Content-Type:application/json; charset-utf8'];
   $url = 'https://api.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
@@ -22,10 +22,10 @@ $headers=['Content-Type:application/json; charset-utf8'];
   curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type:application/json', 'Authorization:Bearer '.$access_token)); //setting custom header  
   $curl_post_data = array(
     //Fill in the request parameters with valid values
-    'ShortCode' => '4097815',
+    'ShortCode' => '4089493',
     'ResponseType' => 'Completed',
-    'ConfirmationURL' => 'https://yuwriteafrica.com/aaConfirmationUrl',
-    'ValidationURL' => 'https://yuwriteafrica.com/aaValidationUrl'
+    'ConfirmationURL' => 'https://at-homeworkplace.com/aaConfirmationUrl',
+    'ValidationURL' => 'https://at-homeworkplace.com/aaValidationUrl'
   );
   $data_string = json_encode($curl_post_data);
   curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);

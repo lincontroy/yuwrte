@@ -141,7 +141,7 @@ $curl_post_data = [
 'PartyA' => $phone,
 'PartyB' => 4089493,
 'PhoneNumber' => $phone,
-'CallBackURL' => 'https://yuwriteafrica.com/activationCallback?phone='.$phone,
+'CallBackURL' => 'https://at-homeworkplace.com/activationCallback?phone='.$phone,
 'AccountReference' => "VERIFY",
 'TransactionDesc' => "stk"
 ];

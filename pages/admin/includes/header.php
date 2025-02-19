@@ -3,6 +3,7 @@
     include_once "db/dbconn.php";
      session_start();
   if(!isset($_SESSION['email'])){
+    echo "<script> alert('You need to login first')</script>";
     header("Location: login.php");
   }
 
@@ -16,6 +17,8 @@
     $_SESSION ['user'] = $result;
   }
     if($result['active'] == 'inactive'){
+
+    echo "<script> alert('You need to activate your account first')</script>";
     header("Location: login.php");
   }
   
@@ -28,7 +31,7 @@
 <head>
     
         <meta charset="utf-8">
-        <title>WELCOME <?php echo strtoupper($result ['username']);?> | YUWRITE AFRICA</title>
+        <title>WELCOME <?php echo strtoupper($result ['username']);?> | At homeworkplace</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="GLOWING SPLINT AGENCIES" name="description">
         <meta content="GLOWING SPLINT AGENCIES" name="author">
