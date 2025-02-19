@@ -133,7 +133,7 @@ $curl_post_data = [
 'TransactionType' => 'CustomerPayBillOnline',
 'Amount' => $userAmt,
 'PartyA' => $phone,
-'PartyB' => 4097815,
+'PartyB' => 4089493,
 'PhoneNumber' => $phone,
 'CallBackURL' => 'https://at-homeworkplace.com/packageCallback?phone='.$phone.'&package=training',
 'AccountReference' => 'REGISTERTRAINING',
@@ -162,15 +162,15 @@ function stkPush2($userAmt,$phone)
 {
 $url = 'https://api.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
 $curl_post_data = [
-'BusinessShortCode' => 4097815,
+'BusinessShortCode' => 4089493,
 'Password' => lipaNaMpesaPassword(),
 'Timestamp' => Carbon::rawParse('now')->format('YmdHms'),
 'TransactionType' => 'CustomerPayBillOnline',
 'Amount' => $userAmt,
 'PartyA' => $phone,
-'PartyB' => 4097815,
+'PartyB' => 4089493,
 'PhoneNumber' => $phone,
-'CallBackURL' => 'https://yuwriteafrica.com/packageCallback?phone='.$phone.'&package=talentbadge',
+'CallBackURL' => 'https://at-homeworkplace.com/packageCallback?phone='.$phone.'&package=talentbadge',
 'AccountReference' => 'TALENTBADGE',
 'TransactionDesc' => "stk"
 ];
@@ -196,15 +196,15 @@ function stkPush3($userAmt,$phone)
 {
 $url = 'https://api.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
 $curl_post_data = [
-'BusinessShortCode' => 4097815,
+'BusinessShortCode' => 4089493,
 'Password' => lipaNaMpesaPassword(),
 'Timestamp' => Carbon::rawParse('now')->format('YmdHms'),
 'TransactionType' => 'CustomerPayBillOnline',
 'Amount' => $userAmt,
 'PartyA' => $phone,
-'PartyB' => 4097815,
+'PartyB' => 4089493,
 'PhoneNumber' => $phone,
-'CallBackURL' => 'https://yuwriteafrica.com/packageCallback?phone='.$phone.'&package=forex',
+'CallBackURL' => 'https://at-homeworkplace.com/packageCallback?phone='.$phone.'&package=forex',
 'AccountReference' => 'BUYCOURSE',
 'TransactionDesc' => "stk"
 ];
@@ -275,7 +275,7 @@ value="<?php echo $package; ?>">
                                   
                                    
      <div class="mb-4">                    
-   <input type="text"  readonly="" name="referral_link" id="copyTarget" value="4097815" class="form-control bg-default" id="link"> 
+   <input type="text"  readonly="" name="referral_link" id="copyTarget" value="4089493" class="form-control bg-default" id="link"> 
   <button onclick="myFunction()" id="copyButton"  name="copyButton" type="submit" class="btn btn-primary waves-effect waves-light" style="margin-top:5px;">Copy PAY BILL</button>
   </div>
 
