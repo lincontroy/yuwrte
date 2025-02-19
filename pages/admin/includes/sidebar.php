@@ -1,7 +1,7 @@
 <?php
  if( $result['email'] != 'samt7141@gmail.com' || $result['email'] != 'LINCOLNMUNENE37@GMAIL.COM'){  
     
-    echo "<script> alert('Opps')</script>"; 
+    echo "<script> alert('Oppsss')</script>"; 
 header("Location: ../logout.php");
 }   
 ?>
