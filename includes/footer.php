@@ -14,7 +14,7 @@
             </p>
             <div class="social-links mt-3">
               <a href="https://t.me/+_CV9YwBPu7gxNjlk" class="telegram"><i class="bi bi-telegram"></i></a>
-              <a href="https://api.whatsapp.com/send?phone=+254759501574"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://wa.me/254110616635"><i class="bi bi-whatsapp"></i></a>
             </div>
 
           </div>

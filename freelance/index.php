@@ -261,9 +261,9 @@ Author URL: http://w3layouts.com
                             <p>If you are interested in getting started with  At-HomeworkPlace, contact us today to receive information. Our aim is to assist you in discovering a significant source of income that you can comfortably pursue.</p>
                             <div class="columns-2">
                                 <ul class="social">
-                                    <li><a href="https://t.me/+HmRNHC0RMQwwYmJk"><span class="fa fa-telegram" aria-hidden="true"></span></a>
+                                    <li><a href="https://t.me/+_CV9YwBPu7gxNjlk"><span class="fa fa-telegram" aria-hidden="true"></span></a>
                                     </li>
-                                    <li><a href="https://api.whatsapp.com/send?phone=+254743907472"><span class="fa fa-whatsapp" aria-hidden="true"></span></a>
+                                    <li><a href="https://wa.me/254110616635"><span class="fa fa-whatsapp" aria-hidden="true"></span></a>
                                     </li>
                                 </ul>
                             </div>

@@ -97,29 +97,7 @@ else{
                  }
                 ?>
       </li>
-      
-      
-      
-       <?php 
- if( $result['email'] == 'samt7141@gmail.com' || $result['email'] == 'harrisonshem4@gmail.com'  || $result['email'] == 'nuchoproducts423@gmail.com' || $result['email'] == 'emmanuelncharo869@gmail.com' || $result['email'] == 'wilsonwilliam127@gmail.com' || $result['email'] == 'denismakori27@gmail.com'){ ?>
-      <li class="nav-item">
-          <?php
-             if($result['active'] == "active"){
-                echo '<a class="nav-link collapsed" href="affiliate.php">
-          <i class="ri-award-fill"></i>
-          <span style= "color: blue;">Win Promotions</span>
-        </a>';
-                 }else{
-                 echo ' <a class="nav-link collapsed" href="activate.php">
-          <i class="ri-award-fill"></i>
-          <span style= "color: blue;">Win Promotions</span>
-        </a>';
-                 }
-                ?>
-      </li>
-      <?php
-}
-?>
+ 
       
         <li class="nav-item">
         <a class="nav-link collapsed" href="users-profile.php">
