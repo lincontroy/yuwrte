@@ -124,7 +124,7 @@ echo '<div class="row"> ';
    <span>FIELD: <?php echo strtoupper($usersemailinDbQueryResulttt['field']); ?></span>&nbsp;&nbsp;&nbsp;&nbsp;
    <span>KSH <?php echo number_format($usersemailinDbQueryResulttt['amount']); ?></span>&nbsp;&nbsp;&nbsp;&nbsp;
    <span>  DUE: <?php echo $usersemailinDbQueryResulttt['due']; ?></span>&nbsp;&nbsp;&nbsp;&nbsp;
-   <span>JOB ID: <?php echo $usersemailinDbQueryResulttt['id']; ?> bids</span> &nbsp;&nbsp;&nbsp;&nbsp;
+   <span>JOB ID: <?php echo $usersemailinDbQueryResulttt['id']; ?></span> &nbsp;&nbsp;&nbsp;&nbsp;
    <!--<i class="ri-skip-forward-line"></i>-->
   </div>
   <input type="hidden" value="<?php echo $usersemailinDbQueryResulttt['id']; ?>" name="get_task_id">
